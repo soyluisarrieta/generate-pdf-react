@@ -1,8 +1,15 @@
+import { Button } from 'bootstrap'
+
 function App () {
   return (
-    <>
-      <h1>Hola</h1>
-    </>
+    <div>
+      <h1>Hola mundo</h1>
+      <nav>
+        <Button>Ver Web</Button>
+        <Button>Ver PDF</Button>
+        <Button>Ver Descargar</Button>
+      </nav>
+    </div>
   )
 }
 
